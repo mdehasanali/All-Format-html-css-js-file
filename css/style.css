@@ -56,20 +56,39 @@ a {
 /* header start here */
 
 header {
-    background-color: rgb(104, 204, 104);
+    background-color: #68cc68;
     text-align: center;
     padding: 10px;
+}
+
+.imgLogo {
+    position: relative;
 }
 
 .logo {
     width: 150px;
     margin: 0 auto;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .logo a img {
     border-radius: 50%;
+}
+
+.barsBtn {
+    padding: 50px 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    background-color: #68cc68;
+}
+
+.barsBtn i {
+    color: #777;
+    font-size: 2rem;
+    /* border: none; */
+    /* outline: none; */
 }
 
 .navberAll ul li {
